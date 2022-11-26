@@ -3,7 +3,9 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+    <span class="navbar-brand">ALAN HUANG</span> 
+    <ul className="navbar-nav mr-auto">
       <li className="nav-item">
         <a
           href="#about"
@@ -41,6 +43,8 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+</nav>
+
   );
 }
 

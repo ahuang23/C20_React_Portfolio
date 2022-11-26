@@ -1,18 +1,18 @@
 import React from 'react';
-import '../../styles/style.css'
+
 
 
 export default function About() {
   return (
     <div className="title">
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <br />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Welcome to my online portfolio. My name is Alan. A little about me - I'm from Southern California, born and raised. 
+        I graduated from Cal State Long Beach in 2013 with a BA in Graphic Design. 
+        I worked in the fashion industry as a designer for a few years until I transitioned into tech in 2016. 
+        Currently, I am working as a System Test Engineer at Panasonic Avionics Corporation. 
+        By joining this bootcamp, I hope to enhance my skillset so that I can be increase my hire-ability.  
       </p>
     </div>
   );
