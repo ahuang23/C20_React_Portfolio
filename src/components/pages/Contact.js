@@ -1,23 +1,30 @@
 import React from 'react';
+import resume from '../../assets/Resume.pdf'
+import resume_logo from '../../assets/images/resume.jpeg'
+import email_logo from '../../assets/images/email.jpg'
+import linkedin_logo from '../../assets/images/linkedin.jpg'
+import github_logo from '../../assets/images/github.jpg'
+
+
 
 export default function Contact() {
   return (
-    <div className="title">
-      <h1>Contact Page</h1>
+    <section className="title">
+      <h1>Contact Me</h1>
       <br />
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+      <div className="contactLogos">
+        <a href='mailto: a.huang232@gmail.com'><img className="logo_s" src={ email_logo } alt="phone" title="Email"/></a>
+
+        <a href='https://www.linkedin.com/in/alan-huang3891/'><img className="logo_s" src={ linkedin_logo } alt="linkedin" title="LinkedIn" /></a>
+
+        <a href='https://github.com/ahuang23'><img className="logo_s" src={ github_logo } alt="github" title="GitHub" /></a>
+
+        <a href={ resume } download><img className="logo" src={ resume_logo } alt="resume" title="Resume" /></a>
+      </div>
+      <div className="contactForm">
+
+      </div>
+
+    </section>
   );
 }

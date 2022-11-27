@@ -1,8 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
 .title {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 10%;
     margin-right: 30px;
     text-align: center;
+    width: 80%;
 }
 
 .navbar {
@@ -11,6 +17,7 @@
 
 .navbar-brand {
     margin-left: 20px;
+    white-space: 2px;
 }
 
 .navbar-nav {
@@ -26,6 +33,21 @@
     text-align: center;
     bottom: 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     
+}
+
+.photo {
+    width: 250px;
+}
+
+.logo {
+    width: 80px;
+    display: inline;
+    margin-left:40px;
+}
+
+.logo_s{
+    width: 65px;
+    margin-left: 50px;
 }
