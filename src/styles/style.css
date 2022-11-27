@@ -3,6 +3,7 @@
     font-size: 16px;
 }
 
+
 .title {
     margin-top: 20px;
     margin-left: 10%;
@@ -33,8 +34,15 @@
     text-align: center;
     bottom: 0;
     width: 100%;
+    height: 40px;
     position: fixed;
+    background-color:darkgrey;
     
+}
+
+.foot p{
+    margin-top: 5px;
+
 }
 
 .photo {
@@ -44,10 +52,22 @@
 .logo {
     width: 80px;
     display: inline;
-    margin-left:40px;
 }
 
 .logo_s{
-    width: 65px;
-    margin-left: 50px;
+    width: 20px;
+    margin-left: 10px;
 }
+
+.card{
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-top: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+
+}
+

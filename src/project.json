@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Portfolio",
+      "image": "https://raw.githubusercontent.com/ahuang23/C02_Portfolio/master/assets/images/portfolio.jpg?raw=true",
+      "github": "https://github.com/ahuang23/C02_Portfolio",
+      "description": "Portfolio created using HTML and CSS",
+      "skills": "HTML | CSS"
+      },
+      {
+      "id": 2,
+      "name": "Travel Planner",
+      "image": "https://raw.githubusercontent.com/ahuang23/C03_Password_Generator/master/Assets/Passwordgenerator.jpg",
+      "github": "https://github.com/ahuang23/C03_Password_Generator",
+      "description": "Javascript function that generates a random password based on user selected criteria",
+      "skills": "HTML | CSS | JavaScript"
+      },
+      {
+      "id": 3,
+      "name": "Weather App",
+      "image": "https://raw.githubusercontent.com/ahuang23/C06_Weather/master/assets/images/image1.jpg",
+      "github": "https://github.com/ahuang23/C06_Weather",
+      "description": "Weather tracking app using Open Weather API.",
+      "skills": "HTML | CSS | JavaScript"
+      },
+      {
+      "id": 4,
+      "name": "Movies & Foodies",
+      "image": "https://raw.githubusercontent.com/ahuang23/P01_Movies_and_Foodies/master/assets/images/screen.gif",
+      "github": "https://github.com/ahuang23/P01_Movies_and_Foodies",
+      "description": "App that pairs a Restaurant with a Movie",
+      "skills": "HTML | CSS | JavaScript"
+      },
+      {
+      "id": 5,
+      "name": "Team Generator",
+      "image": "https://raw.githubusercontent.com/ahuang23/C10_Team_Generator/master/images/image1.png",
+      "github": "https://github.com/ahuang23/C10_Team_Generator",
+      "description": "Team generator that generates a Team Member HTML file to display information provided by the user",
+      "skills": "Javascript"
+      },
+      {
+      "id": 6,
+      "name": "Budget 2 Go",
+      "image": "https://raw.githubusercontent.com/lydiakim10/project2-team1/master/public/images/homepage.png",
+      "github": "https://github.com/lydiakim10/project2-team1",
+      "description": "This app is an expense tracker that uses REST API and the MVC paradigm",
+      "skills": "HTML | CSS | Handlebars.js | MySQL | Node.js"
+      }
+  ]
