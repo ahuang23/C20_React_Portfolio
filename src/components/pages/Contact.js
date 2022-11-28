@@ -40,10 +40,6 @@ const Contact = () => {
       setErrorMessage(`Please leave a message.`);
       return;
     }
-    if (!name && !email ) {
-      setErrorMessage('Please enter a name and an email.');
-      return;
-    }
 
     setName("");
     setEmail("");
