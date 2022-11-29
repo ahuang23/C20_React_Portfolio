@@ -71,7 +71,7 @@ const Contact = () => {
           value={email}
           id="email"
           type="email"
-          placeholder="Your Email"
+          placeholder="Email"
           onChange={handleInputChange}
         ></input>
         <p>
@@ -83,7 +83,7 @@ const Contact = () => {
           data-testid="text-box"
           value={message}
           id="message"
-          placeholder="Your Message"
+          placeholder="Message"
           type="text"
           onChange={handleInputChange}
         ></textarea>
