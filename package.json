@@ -2,7 +2,7 @@
   "name": "c20_react_portolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://ahuang23.github.io/C20_React_Portfolio/",
+  "homepage": "https://ahuang23.github.io/C20_React_Portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
